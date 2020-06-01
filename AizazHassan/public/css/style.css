@@ -1,0 +1,19 @@
+.nav-wrapper {
+    padding: 0 25px;
+}
+.submit-btn { width: 80% ;}
+
+#toast-container {
+    top: auto !important ;
+    bottom: 10% !important ;
+    left: 50% !important ;
+    right: auto !important ;
+}
+
+#main-table {  table-layout: fixed; margin: 20px 0;}
+#main-table td, #main-table th { padding:10px 15px;}
+#main-table tr th:first-of-type { width: 35%;}
+#main-table tr th:nth-of-type(2) { width: 35%;}
+#main-table tr th:nth-of-type(3), #main-table tr td:nth-of-type(3) { width: 10%; text-align: center;}
+#main-table tr th:last-of-type, #main-table tr td:last-of-type { width: 20%; text-align: center;}
+
